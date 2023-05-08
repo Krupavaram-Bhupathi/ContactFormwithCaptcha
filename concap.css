@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto",sans-serif;
+    background: #f7ecec;
+}
+
+.contact-form{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:90%;
+    max-width: 450px;
+    background: #daa5a5;
+    padding: 20px 30px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+.contact-form .form-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0px 30px;
+    color: #111;
+}
+.contact-form .form-input{
+    margin: 10px 0px;
+    color: #111;
+    font-weight: 300;
+    border-radius: 3px;
+
+}
+label{
+    color: #111;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+.contact-form .form-input label,.contact-form .captcha label{
+    display: block;
+    font-size: 15px;
+    color: #111;
+    margin-bottom: 5px;
+}
+
+.contact-form .form-input input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #888;
+    font-size: 15px;
+}
+
+.contact-form .captcha{
+    margin: 15px 0px;
+}
+
+.contact-form .captcha .preview{
+    color: #140f0f;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 8px;
+    border: 1px solid #888;
+    font-family: "monospace";
+}
+.contact-form .captcha .preview span{
+    display: inline-block;
+    user-select: none;
+}
+
+.contact-form .captcha .captcha-form{
+    display: flex;
+}
+
+.contact-form .captcha .captcha-form input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #888;
+}
+
+.contact-form .captcha .captcha-form .captcha-refresh{
+    width: 40px;
+    border: none;
+    outline:none;
+    background: #575353;
+    color:#eee;
+    cursor: pointer;
+}
+
+.contact-form #submit-btn{
+    margin-top: 5px;
+    width: 100%;
+    padding:10px;
+    letter-spacing: 4px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #440e0e;
+    color: #fff;
+    cursor: pointer;
+    font-family: cursive;
+    font-weight: 550;
+}
